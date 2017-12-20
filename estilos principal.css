@@ -1,0 +1,139 @@
+*{ 
+	margin: 0px;
+	padding: 0px; }
+body { 
+	background-image: url("../imagenes/fondo1.jpg");
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-attachment: fixed;
+	color: black;
+	margin-left: 200px;
+	margin-right: 10%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	max-width: 100%;
+	height: auto; }
+nav ul {
+	list-style: none; }
+
+/* nav > ul {
+    display:table; }
+nav > ul li { display: table-cell; } */
+
+#cuerpo {
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px; 
+     	background: rgba(205, 209, 111, 0.9); }
+.cabecera li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px; }
+.cabecera {
+	background: rgba(19, 189, 156, 0.4);
+	height: 100px; 
+	display: inline;
+	text-align: center; }
+.cabecera p{ 
+	font-family: magneto;
+	font-size: 120px;
+	line-height: 100px;
+	color: white;
+	text-shadow: rgb(0,0,150) 3px 3px 5px; }
+.menu {
+	background: rgba(6, 135, 249, 0.7);
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px; 
+	text-align: right; }
+.menu li {
+	display: inline; }
+li:hover {
+	background-color: #FFFFFF; 
+	color: black;}
+.catalogo {
+	background: rgba(20, 246, 201, 0.8); 
+	float: right;
+	width: 69%;
+	font-size: 20px;}
+.catalogo li {
+	display: inline-block; }
+#contenido {
+	background: rgba(59, 219, 187, 0.8);
+	margin-right: 10px; 
+	margin-bottom: 10px; 
+	text-align: left; 
+	width: 29.9%;
+	height: 50px;
+	color: white;
+	margin-top: 5px;
+	line-height: 50px;
+	float: left;
+	text-align: center; }
+
+footer { 
+	background: rgba(0, 0, 0, 0.7);
+	line-height: auto;
+	height: auto;
+	clear: both;
+	color: white;
+	text-align: center; }
+
+
+
+
+
+
+
+
+
+
+
+#header {
+	margin:auto;
+	width:500px;
+	height:auto;
+	font-family:Arial, Helvetica, sans-serif;}
+			
+ul, ol {
+	list-style:none;}
+			
+.nav {
+	width:500px; }
+ 
+.nav > li {
+	float:left;}
+			
+.nav li a {
+	background-color:#000;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;}
+			
+.nav li a:hover {
+	background-color:#434343;}
+			
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px; }
+			
+.nav li:hover > ul {
+	display:block;}
+			
+.nav li ul li {
+	position:relative;}
+			
+.nav li ul li ul {
+	right:-140px;
+	top:0px;}
+
+
+
+@media (max-width: 800px){
+	body {
+		margin-left: 2%;
+		margin-right: 2%; }
+
+}
